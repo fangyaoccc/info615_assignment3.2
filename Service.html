@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the Vallejo Public Library. Explore our resources, services, and online catalog."
+    />
+    <link rel="stylesheet" href="style.css" />
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="Main.html">Return Home Page </a>
+          <br>
+          <a href="Service.html">Service</a>
+          <br>
+          <a href="News.html">News</a>
+          <br>
+          <a href="About.html">About</a>
+          <br>
+          <a href="FindBook.html">Findbook</a>
+          <br>
+          <a href="LoanBook.html">LoanBook</a>
+          <br>  
+          <a href="Kid.html"> Kid</a>
+        </ul>
+        
+      </nav>
+    </header>
+
+    <main>
+      <form action="index.py" method="POST">
+        <h1>Sign up the Librarys Card today!</h1>
+        <label for="username">Enter the Name</label>
+        <input type="text" id="username" />
+        <br>
+        <label for="passward">Enter the Password</label>
+        <input type="text" id="passward" />
+        <br>
+        <label for="email"> Enter the Email:</label>
+        <input type="text" id="email" />
+        <br>
+        <label for="address">Enter the mailing address</label>
+        <input type="text" id="address" />
+        <br>
+
+        <input type="submit" />
+      </form>
+    </main>
+    <div class="container">
+      <form action="FindBook.html" class="search-bar">
+        <input type="text" placeholder="Search Book" name="q" />
+        <button type="submit"><img src="icons8-search-48.png" /></button>
+      </form>
+    </div>
+  </body>
+</html>
